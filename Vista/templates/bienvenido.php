@@ -28,7 +28,7 @@ while($resultado = $res->fetch()){
     }
     echo "<div class='caja-archivo'>
             <u>Nombre del archivo:</u><br>
-            <a href='/../UNIDAD1/Proyecto-Nubex/Archivos/".$_SESSION['nombre']."/".$resultado['nombre_archivo']."' download>".$resultado['nombre_archivo']."</a><br>
+            <a href='../Archivos/".$_SESSION['nombre']."/".$resultado['nombre_archivo']."' download>".$resultado['nombre_archivo']."</a><br>
             <u>Fecha de subida:</u><br>".$resultado['fecha_subida']."<br>
             <u>Tipo de archivo:</u> ".$resultado['tipo_archivo']."<br><br>
             <div class='two-forms'>
@@ -46,7 +46,7 @@ while($resultado = $res->fetch()){
             </div>
             <hr>
             <u><h4>Descargar</h4><br></u>
-            <a href='/../UNIDAD1/Proyecto-Nubex/Archivos/".$_SESSION['nombre']."/".$resultado['nombre_archivo']."' download><img class='img-archivo' src='img/save.png' width='50px'></a>
+            <a href='../Archivos/".$_SESSION['nombre']."/".$resultado['nombre_archivo']."' download><img class='img-archivo' src='img/save.png' width='50px'></a>
 
 
 </div>";
